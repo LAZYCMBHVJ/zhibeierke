@@ -1,0 +1,256 @@
+body {
+	overflow-x: hidden;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 5.4rem;
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	width: 100%;
+	height: 0.95rem;
+	border-bottom: 0.04rem solid #dcdcdc;
+	font-size: 0.4rem;
+	color: #020202;
+	font-weight: bold;
+	line-height: 0.95rem;
+	padding-left: 0.28rem;
+}
+
+
+/*诊所介绍 start*/
+
+.box {
+	width: 100%;
+	/*padding: 0.28rem;*/
+	border-bottom: 0.4rem solid #DCDCDC;
+	padding-bottom: 0.2rem;
+}
+
+.box-title {
+	font-size: 0.4rem;
+	line-height: 1.2rem;
+	color: #FFFFFF;
+	padding: 0.28rem;
+	padding-bottom: 0;
+}
+
+.box-title>span {
+	/*width: 1.56rem;*/
+	/*height: 0.6rem;*/
+	background-color: #00b1bb;
+	padding: 0.1rem;
+}
+
+.box-main {
+	padding: 0.28rem;
+	color: #595959;
+	font-size: 0.28rem;
+	font-family: "微软雅黑";
+	line-height: 0.50rem;
+}
+
+.box-main p:nth-child(2) {
+	margin-top: 0.8rem;
+}
+
+.box-main p:nth-child(3)>span,
+.yingyeTime span,
+.yingyefanwei span {
+	color: #00b1bb;
+}
+
+.box-main p:nth-child(4) {
+	margin-top: 0.8rem;
+	font-weight: bold;
+	line-height: 0.4rem;
+}
+
+.map {
+	width: 100%;
+	height: 4.3rem;
+	/*margin-bottom: 0.4rem;*/
+}
+
+.box-main p.yingyefanwei {
+	margin-top: 0.26rem;
+}
+
+
+/*诊所介绍 end*/
+
+
+/*医生团队 start*/
+
+.doctor {
+	width: 100%;
+}
+
+.doctor li {
+	position: relative;
+	border-bottom: 1px solid #ebeaea;
+	padding: 0.4rem 0;
+}
+
+.doctor li:nth-child(5) {
+	border-bottom: none;
+}
+
+.doctor li img {
+	width: 1.4rem;
+	height: 1.4rem;
+	margin-left: 0.42rem;
+}
+
+.doctor li div.fr {
+	width: 70%;
+	height: 1.4rem;
+}
+
+.doctor-box {
+	width: 100%;
+}
+
+.doctor-name {
+	color: #00B1BB;
+	font-size: 0.4rem;
+	font-weight: bold;
+}
+
+.doctor-job {
+	font-size: 0.28rem;
+	color: #999999;
+}
+
+.ill {
+	overflow: hidden;
+}
+
+.ill span {
+	float: left;
+	width: 1.05rem;
+	/*padding: 0 0.12rem;*/
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #b5b7b7;
+	line-height: 0.28rem;
+	text-align: center;
+	background-color: #f0f0f0;
+	margin-right: 0.34rem;
+	margin-top: 0.14rem;
+}
+
+.arrow {
+	background: url(../img/arrow.png) 0 0 no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 0.2rem;
+	width: 0.26rem;
+	height: 0.48rem;
+}
+
+
+/*医生团队 end*/
+
+
+/*会员套餐 start*/
+
+.vip-list img {
+	width: 4.24rem;
+	height: 0.56rem;
+}
+
+.vip-words {
+	color: #00B1BB;
+}
+
+.vip-list li {
+	margin-bottom: 0.4rem;
+	overflow: hidden;
+}
+
+.vip-list li:nth-child(3) {
+	margin-bottom: 0;
+}
+
+.box-main .vip-list li p {
+	margin: 0;
+	font-weight: normal;
+	line-height: 0.5rem;
+}
+
+
+/*会员套餐 end*/
+
+
+/*常见问题 start*/
+
+.qustion {
+	font-weight: bold;
+	color: #00B1BB;
+}
+
+.qustion,
+.answer {
+	font-size: 0.28rem;
+	line-height: 0.56rem;
+	padding: 0 0.28rem;
+}
+/*常见问题 end*/
+
+.phon{
+	width: 100%;
+	height: 0.91rem;
+	color: #FFFFFF;
+	background-color: #00B1BB;
+	line-height: 0.91rem;
+	text-align: center;
+	font-size: 0.48rem;
+	font-weight: bold;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+/*滑动导航 start*/
+.nav{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	background-color: #FFFFFF;
+	display: block;
+}
+.nav ul{
+	width: 100%;
+	border-bottom: 1px solid #00B1BB;
+}
+.nav ul li{
+	height: 1.4rem;
+	float: left;
+	width: 33%;
+	text-align: center;
+	line-height: 1.4rem;
+	font-size: 0.36rem;
+	border-right: 1px solid #DCDCDC;
+}
+.nav ul li:nth-child(3){
+	border-right: 0;
+}
+
+#trgt{
+	width: 0;
+	height: 0;
+	border: 0.2rem solid transparent;
+	border-bottom-color: #00B1BB;
+	position: absolute;
+	left: 1rem;
+	top: 1rem;
+}
+/*滑动导航 end*/
